@@ -1,0 +1,17 @@
+.expanding_btn{
+    border: solid .0625rem rgb(221 221 221 / 0.35);
+    color: #FFFFFF;
+    padding: 0.75rem 1rem;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    transition: 0.15s ease-in-out;
+    background-color: black;
+}
+
+.expanding_btn:hover{
+    margin-top: -0.4rem;
+    margin-left: -0.4rem;
+    box-shadow: 4px 4px 0 #FFFFFF;
+    border-radius: 0.25rem;
+    transition: 0.15s ease-in-out;
+}

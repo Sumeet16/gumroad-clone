@@ -1,0 +1,89 @@
+.email_btn{
+    background-color: #FF91E7;
+    padding: 0.7rem 1rem;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.trademark_logo{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.footer_first_row{
+    align-items: flex-start;
+    gap: 5rem;
+}
+
+.footer_container{
+    border-top: solid .0625rem rgb(221 221 221 / 0.35);
+    background-color: black;
+    color: #FFFFFF;
+    padding: 6rem 2.75rem;
+}
+
+.big-heading{
+    font-size: 3rem;
+}
+
+.email_subscription_footer_container{
+    width: 50%;
+    align-items: flex-start;
+    gap: 1.25rem;
+}
+
+.email_subscription_footer_container input{
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: solid .0625rem rgb(221 221 221 / 0.35);
+    border-radius: 5px;
+}
+
+.email_subscription_footer_container > div{
+    width: 100%;
+    gap: 0.25rem;
+}
+
+.footer_nav_links_section{
+    width: 50%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.footer_nav_links_section .footer_nav_list{
+    width: 50%;
+    line-height: 2.25rem;
+}
+
+.footer_nav_list ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer_nav_list ul li:hover{
+    color: #FF91E7;
+}
+
+.footer_second_row{
+    margin-top: 4rem;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.trademark_container{
+    gap: 0.5rem;
+}
+
+.social_container_link{
+    width: 50%;
+    padding-left: 2rem;
+}
+
+.social_container_link svg:hover{
+    color: #FF91E7;
+    cursor: pointer;
+}

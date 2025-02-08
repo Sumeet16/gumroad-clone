@@ -1,0 +1,55 @@
+.logo{
+    filter: invert(1);
+    height: 2rem;
+}
+
+.navbar_container{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    height: 5rem;
+    padding-left: 2rem;
+    border-bottom: 1px solid #595959;
+}
+
+.nav_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.75rem;
+}
+
+.nav_items{
+    font-weight: 300;
+    list-style-type: none;
+    font-size: 1.125rem;
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.nav_items:nth-child(1){
+    background-color: #fff;
+    color: black;
+}
+
+.btn-1{
+    padding: 1rem 3rem;
+    color: black;
+    background-color: #FF91E7;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav_items:hover{
+    border: 1px solid rgba(184, 184, 184, 0.518);
+}

@@ -1,0 +1,64 @@
+.dashboard_container{
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.dashboard_info_section{
+    width: 85%;
+    background-color: #242423;
+}
+
+.dashboard_info_section .big-heading{
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+.dashboard_info_section > div:nth-child(1){
+    padding: 2.5rem 4rem;
+    border-bottom: solid .0625rem rgb(221 221 221 / 0.35);
+}
+
+.earning_report{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: #ffffff;
+    grid-gap: 1rem;
+}
+
+.earning_report .card{
+    border: solid .0625rem rgb(221 221 221 / 0.35);
+    border-radius: 5px;
+    background-color: black;
+    padding: 1.5rem;
+}
+
+.dashboard_summary_report_section{
+    padding: 4rem;
+}
+
+.balance{
+    font-size: 2.5rem;
+}
+
+.dashboard_summary_report_section .best_seller_section, .dashboard_summary_report_section .activity_section{
+    margin-top: 3rem;
+    color: #DDDDDD;
+}
+
+.dashboard_summary_report_section .best_seller_section .heading, .dashboard_summary_report_section .activity_section .heading{
+    margin-bottom: 1rem;
+}
+
+.card_dotted{
+    border: dashed .0625rem rgb(221 221 221 / 0.35);
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: black;
+    color: #DDDDDD;
+    text-align: center;
+}
+
+.card_dotted a{
+    color: #ffffff;
+}
+

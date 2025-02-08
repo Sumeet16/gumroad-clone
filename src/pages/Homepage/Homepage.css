@@ -1,0 +1,143 @@
+.homepage_container{
+    width: 100%;
+    height: auto;
+    background-color: #242423;
+}
+
+.recommended_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+.heading_Container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #DDDDDD;
+}
+
+.heading{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.slider{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.arrow{
+    filter: invert(1);
+}
+
+.slider_text{
+    letter-spacing: 0.35rem;
+}
+
+.products_slider_container{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    gap: 2rem;
+    padding: 0rem 0.5rem 0 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.wishlist_section{
+    color: #DDDDDD;
+    padding: 0 4rem;
+    padding-bottom: 5rem;
+}
+
+.wishlist_section .heading{
+    margin-bottom: 1rem;
+}
+
+.wishlist_grid{
+    padding: 0 0.5rem 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.created_for_you_section{
+    padding: 4rem;
+    padding-top: 0;
+}
+
+.created_for_you_section .heading_Container{
+    margin-bottom: 1.5rem;
+}
+
+.heading_Container .nav_list .nav_items{
+    font-size: 1rem;
+    color: #DDDDDD;
+    border: none;
+    border: solid .0625rem #242423;
+}
+
+.heading_Container .nav_list{
+    gap: 1rem;
+}
+
+.heading_Container .nav_list .nav_items:hover{
+    border: solid .0625rem rgb(221 221 221 / 0.35);
+}
+
+.heading_Container .nav_list .nav_items:nth-child(1){
+    background-color: black;
+    border: solid .0625rem rgb(221 221 221 / 0.35);
+}
+
+.product_grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.filter_grid_container{
+    position: relative;
+    align-items: flex-start;
+}
+
+.filter_grid{
+    position: sticky;
+    top: 5%;
+    left: 0;
+    width: 30%;
+    padding-right: 4rem;
+}
+
+.filter_cell{
+    width: 100%;
+    border: solid .0625rem rgb(221 221 221 / 0.35);
+    border-bottom: none;
+    background-color: black;
+    padding: 1rem;
+    color: #DDDDDD;
+}
+
+.filter_cell img{
+    filter: invert(1);
+}
+
+.filter_cell:nth-last-child(1){
+    border-bottom: solid .0625rem rgb(221 221 221 / 0.35);
+}
+
+.pt-25{
+    padding-top: 2.5rem;
+}
+
+.filter_grid_container .flex_col{
+    width: 70%;
+}

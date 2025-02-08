@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+.flex_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex_col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.invert_logo{
+    filter: invert(1);
+    width: 1em;
+}
+
+.itallic{
+    font-style: italic;
+}
+
+.lg_icon{
+    width: 1.5em;
+}

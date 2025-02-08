@@ -1,0 +1,46 @@
+.sidebar_nav_item_img{
+    width: 2.15rem;
+    margin-bottom: -0.15rem;
+    padding-right: 1rem;
+}
+
+.app_logo{
+    padding: 3.5rem 2rem;
+    filter: invert(1);
+}
+
+.sidebar_container{
+    width: 15%;
+    height: 100vh;
+    background-color: black;
+    color: #ffffff;
+    scroll-behavior: smooth;
+    overflow: scroll;
+}
+
+.sidebar_nav_items{
+    border-bottom: solid .0625rem rgb(221 221 221 / 0.35);
+}
+
+.sidebar_nav_items:nth-child(1){
+    border-top: solid .0625rem rgb(221 221 221 / 0.35);
+}
+
+.sidebar_nav_items{
+    padding: 1rem 1.5rem;
+}
+
+.sidebar_separator{
+    border-bottom: solid .0625rem rgb(221 221 221 / 0.35);
+    padding: 1.75rem 1rem;
+}
+
+.sidebar_profile_sm{
+    margin-right: 1rem;
+    margin-bottom: -0.25rem;
+}
+
+.sidebar_arrow_down{
+    margin-bottom: -0.25rem;
+    margin-left: 1rem;
+}
