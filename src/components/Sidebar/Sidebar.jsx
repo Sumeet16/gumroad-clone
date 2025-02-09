@@ -21,7 +21,7 @@ const Sidebar = () => {
                     ) : (
                         <div 
                             key={index} 
-                            className="sidebar_nav_items" 
+                            className="sidebar_nav_items pointer" 
                             onClick={() => navigator(item.path, { replace: true })}
                         >
                             <img className={item.name === "Profile" ? "profile_logo_sm sidebar_profile_sm" : "sidebar_nav_item_img"} style={item.name == "Collaborators" || item.name == "Profile" ? {} : {filter:"invert(1)"}} src={item.img_link} alt={item.name} />
